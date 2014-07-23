@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+    <link rel="icon" type="image/png" href="img/bokeh-32.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
+    <title>bokeh | pixel pathos</title>
+  </head>
+  <body>
+    <div id="contents">
+      <!-- facebook sdk -->
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&appId=1530619683833502&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+      
+      <!-- twitter sdk -->
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      
+      <div id="social">
+          <div class="fb-like" data-href="http://pixelpathos.com/bokeh/web" data-layout="button_count" data-action="like" data-show-faces="true"></div>
+          <a href="https://twitter.com/share?url=http%3A%2F%2Fpixelpathos.com%2Fbokeh%2Fweb&text=Play%20Bokeh%20by%20Pixel%20Pathos%20at&hashtags=bokehgame" class="twitter-share-button" data-lang="en">Tweet</a>
+      </div>
+      
+      <iframe id="canvas" class="round-border" src="http://www.pixelpathos.com/bokeh/master">
+      </iframe>
+      
+      <div id="links">
+        <a href="http://facebook.com/pixelpathos"><img src="facebook.png"></a>
+        <a href="http://twitter.com/pixelpathos"><img src="twitter.png"></a>
+        <a href="mailto://vince@pixelpathos.com"><img src="email-blue.png"></a>
+      </div>
+      
+      <div id="copyright">
+        &copy;2014 <a href="http://pixelpathos.com/">Pixel Pathos Ltd</a> | <a href="http://pixelpathos.com/privacy.txt">Privacy</a
+      </div>
+    </div>
+    
+  </body>
+</html>
